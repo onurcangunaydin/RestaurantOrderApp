@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RestaurantUygulamasi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_empty_edittext">Tum Alanlari Doldurunuz</string>
+    <string name="yemek_tercih">Başlangıç Yemeği Tericihiniz Giriniz :</string>
+    <string name="yemek_tercihii">Ana Yemek Tercihinizi Giriniz :</string>
+    <string name="tatli_tercih">Tatlı Tercihinizi Giriniz :</string>
+    <string name="icecek_tercih">İçecek Tericihinizi Giriniz :</string>
+    <string name="mutfaga_ilet">Mutfaga Ilet</string>
+</resources>
