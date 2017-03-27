@@ -14,7 +14,7 @@ public class IkinciYemekAlimActivity extends AppCompatActivity implements YemekA
     private static final String SIPARIS = "siparis";
     private List<Siparis> siparisList;
 
-    public static Intent newInstance(Context context, ArrayList<Siparis> siparisList) {
+    public static Intent newIntent(Context context, ArrayList<Siparis> siparisList) {
         Intent intent = new Intent(context, IkinciYemekAlimActivity.class);
         intent.putExtra(SIPARIS, siparisList);
         return intent;
