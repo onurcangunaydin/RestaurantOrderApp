@@ -2,8 +2,8 @@ package com.example.ogunaydin.restaurantuygulamasi;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ import java.util.List;
 public class IkinciYemekAlimActivity extends AppCompatActivity implements YemekAlimFragment.PushDatasActivity {
 
 
-    public static final String SIPARIS = "siparis";
+    private static final String SIPARIS = "siparis";
     private List<Siparis> siparisList;
 
     public static Intent newInstance(Context context, ArrayList<Siparis> siparisList) {
